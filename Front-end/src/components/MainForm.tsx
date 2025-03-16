@@ -2,10 +2,10 @@ import PageNavigation from "./PageNavigation";
 
 const MainForm = () => {
   return (
-    <>
-      <h2>Form Page</h2>
+    <div className="center-component">
+      <h2 className="page-title">Form Page</h2>
       <PageNavigation />
-    </>
+    </div>
   );
 };
 export default MainForm;
