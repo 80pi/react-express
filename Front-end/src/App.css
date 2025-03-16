@@ -1,0 +1,38 @@
+.center-component {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+.button-style {
+  width: 6rem;
+  height: 4rem;
+  margin: 1.5rem;
+  border: 2px solid black;
+  border-radius: 12px;
+}
+
+.page-title {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-container {
+  position: absolute;
+  margin: 2rem;
+  padding: 0.25rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+.outer-container {
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  margin: auto;
+  background-color: #d7d1d1;
+  margin-top: 2rem;
+}
